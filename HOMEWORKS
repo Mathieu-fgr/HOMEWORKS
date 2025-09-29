@@ -11,7 +11,7 @@ monthly_salary = annual_salary / 12
 
 print(portion_down_payment)
 
-while current_savings < portion_down_payment: # tant que l’objectif n’est pas atteint
+while current_savings < portion_down_payment: 
     current_savings += current_savings*(r/12) # add portion saved of the month (12) no g ((annual_salary/2)*g*portion_saved))
     current_savings += monthly_salary*portion_saved
     m += 1 
